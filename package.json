@@ -1,5 +1,5 @@
 {
-  "name": "node-file-walker",
+  "name": "file-walker",
   "version": "0.0.1",
   "description": "A Simple file/directory traversal (recusive lookup)",
   "main": "file-walker.js",
