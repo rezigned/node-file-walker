@@ -14,6 +14,7 @@ var walk = function(dir, callback, excludes) {
         }
     };
 
+    // list all files in directory
     fs.readdir(dir, function(err, files) {
 
         var isDir = fs.lstatSync(dir).isDirectory();
