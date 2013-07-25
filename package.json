@@ -1,0 +1,20 @@
+{
+  "name": "simple-file-traversal",
+  "version": "0.0.0",
+  "description": "A Simple file/directory traversal (recusive lookup)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "File",
+    "Traversal",
+    "Recursive"
+  ],
+  "author": "rezigned",
+  "license": "MIT",
+  "devDependencies": {
+    "should": ">= 0.0.0"
+  }
+}
