@@ -4,7 +4,9 @@
 
 ### Installation
 
-```npm install file-walker```
+```
+npm install file-walker
+```
 
 ### Callback arguments
 
@@ -14,10 +16,22 @@
 
 ### Example usage
 
+Assume we have the following directory structure
+
+```
+./test/
+  +- a.js
+  +- b/
+     +- c.js
+     +- d.js
+```
+
 ```js
 var walk = require('file-walker');
 
 walk('./directory', function(files, dir, level) {
+    // 1st iteration, level = 0, dir = './test', files = ['a.js', 'b']
+    // 2nd iteration, level = 1, dir = './test/b', files = ['c.js', 'd.js']
 	// your logic
 });
 ```
