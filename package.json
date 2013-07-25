@@ -1,6 +1,6 @@
 {
   "name": "node-file-walker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Simple file/directory traversal (recusive lookup)",
   "main": "walker.js",
   "scripts": {
@@ -15,6 +15,7 @@
   "author": "rezigned",
   "license": "MIT",
   "devDependencies": {
+    "mocha": "0.3.x",
     "should": ">= 0.0.0"
   }
 }
