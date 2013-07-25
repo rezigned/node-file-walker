@@ -1,12 +1,12 @@
 {
-  "name": "simple-file-traversal",
+  "name": "node-file-walker",
   "version": "0.0.0",
   "description": "A Simple file/directory traversal (recusive lookup)",
-  "main": "index.js",
+  "main": "walker.js",
   "scripts": {
     "test": "mocha"
   },
-  "repository": "",
+  "repository": "git@github.com:rezigned/node-file-walker.git",
   "keywords": [
     "File",
     "Traversal",
