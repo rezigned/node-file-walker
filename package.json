@@ -2,7 +2,7 @@
   "name": "node-file-walker",
   "version": "0.0.1",
   "description": "A Simple file/directory traversal (recusive lookup)",
-  "main": "walker.js",
+  "main": "file-walker.js",
   "scripts": {
     "test": "mocha"
   },

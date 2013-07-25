@@ -11,7 +11,7 @@
 ### Example usage
 
 ```js
-var walk = require('simple-walker');
+var walk = require('file-walker');
 
 walk('./directory', function(files, dir, level) {
 	// your logic

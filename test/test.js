@@ -1,4 +1,4 @@
-var walker = require('../walker.js'),
+var walker = require('../file-walker.js'),
 	should = require('should');
 	assert = require("assert");
 
