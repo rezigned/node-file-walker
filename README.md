@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/rezigned/node-file-walker.png)](https://travis-ci.org/rezigned/node-file-walker)
 
+### Installation
+
+```npm install file-walker```
+
 ### Callback arguments
 
 * files - an array of files/directories in current directory e.g. `['dummy', 'test.js']`
