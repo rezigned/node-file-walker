@@ -1,5 +1,7 @@
 ## A Simple file/directory traversal module
 
+[![Build Status](https://travis-ci.org/rezigned/node-file-walker.png)](https://travis-ci.org/rezigned/node-file-walker)
+
 ### Callback arguments
 
 * files
