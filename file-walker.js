@@ -1,11 +1,11 @@
 var fs = require('fs');
 
-var walk = function(dir, callback, excludes) {
+var walk = function(dir, callback, excludes, level) {
     excludes  = excludes || [];
 
     // create a level counter
-    arguments.callee.level = ++arguments.callee.level || 0;
-    var level = arguments.callee.level;
+    var depth = (typeof level !== 'undefined') ? ++level : 0;
+    // var level = arguments.callee.level;
 
     // filter out excluded dirs
     for(var i=excludes.length; i--;) {
@@ -28,7 +28,7 @@ var walk = function(dir, callback, excludes) {
             var isDir = fs.statSync(file).isDirectory();
 
             if (isDir) {
-                walk(file, callback, excludes);
+                walk(file, callback, excludes, depth);
             }
         });
     });
